@@ -22,7 +22,7 @@ Disciplina.associate = (models) => {
     foreignKey: {
       name: "id_disciplina",
     },
-    as: "disciplina",
+    as: "professores",
   });
 
   Disciplina.hasMany(models.turma, {

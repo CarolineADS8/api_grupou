@@ -11,7 +11,6 @@ const show = async (id) => {
 };
 
 const store = async (user) => {
-  console.log("store", user);
   const result = await models.usuario.create(user, {
     include: ["aluno", "questoes", "professor"],
   });

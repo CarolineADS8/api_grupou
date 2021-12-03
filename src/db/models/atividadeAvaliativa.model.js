@@ -36,7 +36,7 @@ AtividadeAvaliativa.associate = (models) => {
     foreignKey: {
       name: "id_atividadeAvaliativa",
     },
-    as: "hardskill",
+    as: "hardskills",
   });
 
   AtividadeAvaliativa.hasMany(models.avaliacao360, {

@@ -29,7 +29,7 @@ Professor.associate = (models) => {
     foreignKey: {
       name: "id_professor",
     },
-    as: "turma",
+    as: "turmas",
   });
 
   Professor.belongsToMany(models.disciplina, {
@@ -38,7 +38,7 @@ Professor.associate = (models) => {
     foreignKey: {
       name: "id_professor",
     },
-    as: "disciplina",
+    as: "disciplinas",
   });
 };
 

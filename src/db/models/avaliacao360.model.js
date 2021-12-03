@@ -46,7 +46,7 @@ Avaliacao360.associate = (models) => {
     foreignKey: {
       name: "id_avaliacao360",
     },
-    as: "softskill",
+    as: "softskills",
   });
 };
 

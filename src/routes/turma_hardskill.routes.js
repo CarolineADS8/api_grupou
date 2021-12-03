@@ -1,5 +1,5 @@
 import { Router } from "express";
-import controller from "../controller/aluno_hardskill.controller";
+import controller from "../controller/turma_hardskill.controller";
 
 const router = Router();
 
